@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#surycanvas{
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.features{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    width: 50.25%;
+    border: 2px black solid;
+}
+ 
+.features>*{
+    background-color: white;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
